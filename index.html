@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Baby Cassidy Journal</title>
+	<title>Baby Cassidy's Timeline</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
 
+	<header> <!--Dark BG-->
+		<p>BLEEP BLOOP TESTING HEADER</p>
+		<div id="countdown"></div>
+	</header>
+
 	<!-- Password Form -->
-	<form>
+	
 		
 		<!-- One Single Lonely Password Field -->
 		<label for="userInput">Please enter your password</label>
 		<input type="password" id="userInput" name="password" required>
 
 		<!-- Submit button -->
-		<input type="submit" value="Submit" onclick="checkPass();">
+		<a  class="bnt--submit" onclick="checkPass();">submit</a>
 
-	</form>
-
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
-
-<!--<script> -- IDK WHAT THIS DOES
-	init();
-</script>-->
-
 </body>
 </html>
